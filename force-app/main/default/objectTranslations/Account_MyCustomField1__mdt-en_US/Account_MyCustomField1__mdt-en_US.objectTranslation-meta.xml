@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account MyCustomField1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account MyCustomField1s</value>
+    </caseValues>
+    <layouts>
+        <layout>Account MyCustomField1 Layout</layout>
+        <sections>
+            <label></label>
+            <section>Information Azure DevOps</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

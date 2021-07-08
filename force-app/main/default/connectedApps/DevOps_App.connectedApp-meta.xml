@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>geetika.kagdiyal@gmail.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/Salesforce/icon.png</iconUrl>
+    <label>DevOps App</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/Salesforce/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDzzCCArcCFH0byg9RJQWjdIfkmY3dNZDmhMLkMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJTjETMBEGA1UECAwKQ2hhbmRpZ2FyaDETMBEGA1UEBwwKQ2hhbmRpZ2FyaDEQMA4GA1UECgwHTmFnYXJybzEaMBgGA1UECwwRU2FsZXNmb3JjZSBEZXZPcHMxDzANBgNVBAMMBkNyb3dseTErMCkGCSqGSIb3DQEJARYcZ2VldGlrYS5rYWdkaXlhbEBuYWdhcnJvLmNvbTAeFw0yMTA1MzAxODU5NDFaFw0yMjA1MzAxODU5NDFaMIGjMQswCQYDVQQGEwJJTjETMBEGA1UECAwKQ2hhbmRpZ2FyaDETMBEGA1UEBwwKQ2hhbmRpZ2FyaDEQMA4GA1UECgwHTmFnYXJybzEaMBgGA1UECwwRU2FsZXNmb3JjZSBEZXZPcHMxDzANBgNVBAMMBkNyb3dseTErMCkGCSqGSIb3DQEJARYcZ2VldGlrYS5rYWdkaXlhbEBuYWdhcnJvLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKmAFt0E3lDEBUSScEo9gSSLoc5wSXB2/VK3AHhxl3VJam6U5HFZvSzZsRwkRXD2IF1c0dSBXb7JVVXrhD/PYWFiaV3LfaDeop7j9IGeh3ffBMuPSLPqRZJwzi3HJ80ByvKFszUOLKihwFqllM5rHKW159NJW/XAw9RYDN8IasgDmWFha+H2iJs//R2eiXs6tcd7Vag6kvGtZAG94zZ8tS7gWMhrGv3nurMFjNCDoRYPIhSWnwINcu4UsJZs1P9CGdC9rUuoq1ofCf9pg234+UN6Fres5M2bD5+2w3leQSsf8thXHRZZmWxXxt+krDAPIMvnLcaPkQgHhBKIj9i1kYcCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAYCCtce9zDy+gOgnfPbVhjzoiP1sP9q2QUDUNoIblxtqNpKlZjlaPxGlV23dfFHaJwIfHGbGw14FFqsyYWXfeHeiRlBRbd9r/+KDLa/8Coa/k/04K+hxBXOOAtoLvoStBzeV/jA7ewKUEkU8xet93eh9tsrF+SNZ5NJKYgMaix8ezrMrVcr8Wcx/xoPQXTOvLOnLSHR46H3GEDe9AmZnICO4/QTQJWNl3bP5MKf0j6Oc3OE/pcMDYDsyzHVLKjoyycq8xCDxsEgdF1qngvhoUd5nRCZEzC2xQOidWSx8PV+vDJ+akUcdnSs0MvfvItNJGfYgUQ61iB5CHamPdlq3zwA==</certificate>
+        <consumerKey>3MVG9fe4g9fhX0E48jhOxD9U_gP5dZ_7acItsagP469__Tx_ctxUcIHeeOHkzi54AHyalYEBaVhrIpObqmnN3</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Standard Platform User</profileName>
+    <profileName>Standard User</profileName>
+    <profileName>Work.com Only User</profileName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
